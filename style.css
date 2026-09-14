@@ -791,6 +791,7 @@ a { text-decoration: none; color: inherit; }
 .info-block a { color: var(--green-mid); font-weight: 700; }
 .info-block a:hover { color: var(--green-deep); }
 .info-block em { font-size: 0.88rem; color: var(--text-gray); font-style: normal; }
+.info-block .location-hint { font-size: 0.88rem; color: #c8893a; font-style: italic; font-weight: 600; }
 .hours-table { border-collapse: collapse; width: 100%; }
 .hours-table td {
   padding: 7px 0;
@@ -865,6 +866,7 @@ a { text-decoration: none; color: inherit; }
 }
 .footer-links a:hover, .footer-contact a:hover { color: var(--green-light); }
 .footer-contact p { font-size: 0.88rem; margin-bottom: 8px; line-height: 1.65; }
+.footer-contact .location-hint { color: #e8a84a; }
 .footer-social { display: flex; gap: 10px; margin-top: 14px; }
 .footer-social a {
   background: rgba(250,247,240,0.08);
