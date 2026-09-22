@@ -705,6 +705,29 @@ a { text-decoration: none; color: inherit; }
   color: var(--text-gray);
   line-height: 1.8;
 }
+.pkg-label {
+  font-size: 0.8rem; font-weight: 700; letter-spacing: 0.08em;
+  text-transform: uppercase; color: var(--green-mid); margin-bottom: 8px;
+}
+.pkg-deal {
+  display: inline-block; background: var(--green-deep); color: #fff;
+  font-size: 0.78rem; font-weight: 700; padding: 3px 12px;
+  border-radius: 20px; margin: 6px 0 12px;
+}
+.gift-card-item.featured .pkg-deal {
+  background: #fff; color: var(--green-deep);
+}
+.pkg-detail {
+  display: flex; flex-direction: column; gap: 2px;
+  margin-bottom: 8px;
+}
+.pkg-sessions { font-size: 0.95rem; font-weight: 700; color: var(--green-deep); }
+.pkg-total { font-size: 0.82rem; color: var(--text-gray); }
+.gift-card-item.featured .pkg-sessions { color: var(--green-deep); }
+.pkg-save {
+  font-size: 0.82rem; font-weight: 700; color: #c8893a;
+  margin-bottom: 10px;
+}
 
 /* ================== BOOKING ================== */
 .booking-section {
